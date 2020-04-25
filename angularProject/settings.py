@@ -25,10 +25,7 @@ SECRET_KEY = 'ayqh%sueuswghxt(=%bithn1=9ey65$(*+mg&b+-km1qq8i%l6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [
-    *.herokuapp.com,
-    *.netlify.app,
-]
+ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['isuweb.herokuapp.com'])
 
 CORS_ORIGIN_WHITELIST=[
     'http://localhost:4200',
