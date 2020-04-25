@@ -25,7 +25,10 @@ SECRET_KEY = 'ayqh%sueuswghxt(=%bithn1=9ey65$(*+mg&b+-km1qq8i%l6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    *.herokuapp.com,
+    *.netlify.app,
+]
 
 CORS_ORIGIN_WHITELIST=[
     'http://localhost:4200',
