@@ -32,6 +32,7 @@ CORS_ORIGIN_WHITELIST=[
     'https://wonderful-newton-76ccc9.netlify.app',
     'isuweb.herokuapp.com',
     '127.0.0.1',
+    'https://hardcore-stonebraker-fde8ec.netlify.app',
 ]
 # Application definition
 
